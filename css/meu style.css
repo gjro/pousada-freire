@@ -1,0 +1,229 @@
+.p-3 {
+  padding: 0 !important;
+}
+
+.navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0px 0px;
+}
+
+.white
+{
+  color: #ffffff;
+}
+
+body
+{
+  font-weight: 400 !important;
+}
+
+.stretch-itens {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-justify-content: stretch;
+    justify-content: stretch;
+}
+
+header {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60;
+  z-index: 5;
+}
+
+header .navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  background: #300d10ba !important;
+  height: 60px!important;
+}
+
+header .navbar.opaque {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: #300d10 !important
+}
+
+.nav-link {
+  padding: 0.5rem 0.8rem !important;
+  outline: none !important;
+  }
+
+.margindowm{
+  margin-bottom: 5px !important;
+}
+
+.paddingtop{
+  padding-top: 25px;
+
+}
+
+.centro{
+  text-align: center !important;
+  border-radius: 8px;
+}
+
+.site-footer {
+  padding: 5em 0;
+  padding-bottom: 0!important;
+  background: #f2f2f2;
+  font-size: 16px;
+  background-image: url("./../images/fundo.png");
+  background-size: cover;
+}
+
+
+.background-top {
+  background-image: url("./../images/fundo.png");
+  background-size: cover;
+}
+
+@media (max-width: 720px)
+{
+  .background-top {
+    background-image: url("./../images/fundo.png") !important;
+  }
+}
+
+.larg{
+  font-weight: unset !important;
+}
+
+.site-footer h3{
+  font-size: 15px !important;
+}
+
+.background-iden {
+    background-image: url(./../images/fundo.png);
+    background-size: cover;
+}
+
+.mt-3{
+  padding-top: 0 !important;
+  margin-bottom: 5px !important;
+}
+
+@media (max-width: 571px)
+{
+.tamanho-include{
+  font-size: 14px;
+}
+}
+
+.site-footer p{
+  color: white !important;
+}
+
+.site-footer a{
+  color: white !important;
+}
+
+.include-icon {
+    position: center;
+    width: 25%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #300d10;
+    margin-top: -15px;
+}
+
+.cor-footer {
+  background-color: #300d10;
+  height: 60px;
+}
+
+.color {
+  color: #ffffff !important;
+}
+
+@media (max-width: 571px)
+{
+  .responsive-logo{
+  margin-left: 5px;
+  }
+}
+
+.icons {
+  font-size: 25px !important;
+  padding: 10px !important;
+}
+
+.icons a:hover{
+  opacity: .4 !important;
+}
+
+.black h2 {
+  color: black !important;
+}
+
+.cor-identidade {
+  background-color: #d6d8db !important;
+  background-size: cover;
+}
+
+.site-section
+{
+  padding-top: 5em !important;
+}
+
+@media (max-width: 571px)
+{
+header .navbar 
+  {
+    height: 58px !important;
+  }
+}
+
+@media (max-width: 767.98px)
+{
+  .navbar-expand-md>.container, .navbar-expand-md>.container-fluid 
+  {
+      background: #300d10ba !important;
+  }
+}
+@media (max-width: 767.98px)
+{
+  .navbar-dark .navbar-brand
+  {
+    padding-bottom: 0 !important;
+  }
+}
+
+.room
+{
+  border-radius: 8px !important;
+  margin-bottom: 20px !important;
+}
+
+.room figure 
+{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.fonte-padrao h1
+{
+  font-family: 'dk_coliseuregular', sans-serif;
+  color: #fefe02 !important;
+}
+
+.tam-logo
+{
+  width: 300px;
+}
